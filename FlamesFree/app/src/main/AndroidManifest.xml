@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.flamesfree">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/flamesic"
+        android:label="Flames"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Affection" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
+        <activity android:name=".Siblings" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Enemies" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Marriage"  android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Friendds" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Lovers" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".MainActivity" android:screenOrientation="portrait" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

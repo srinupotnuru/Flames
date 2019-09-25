@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/love"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/Boy"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/round"
+        android:elevation="15dp"
+        android:hint="boy name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/Girl"
+        android:layout_width="310dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/Boy"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="35dp"
+        android:background="@drawable/round"
+        android:elevation="15dp"
+        android:hint="girl name"
+        android:inputType="text"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="99dp"
+        android:layout_height="102dp"
+        android:layout_below="@+id/Girl"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="137dp"
+        android:background="@drawable/round"
+        android:foreground="@drawable/cat"
+        android:onClick="dofalmes"
+        />
+
+
+
+</RelativeLayout>
